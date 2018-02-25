@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AnimationDemo"
+             x:Class="AnimationDemo.MainPage">
+
+    <StackLayout>
+        <StackLayout
+            x:Name="stOptions"
+            Orientation="Horizontal">
+            <Entry 
+                x:Name="ePay"
+                HorizontalOptions="FillAndExpand"
+                Text="Pre-defined Animations" />
+            <Button
+                x:Name="OpenOptions"
+                VerticalOptions="Center"
+                Text="OP"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
